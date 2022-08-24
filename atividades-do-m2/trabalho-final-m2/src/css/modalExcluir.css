@@ -1,0 +1,108 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.modal__excluir {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.modal__excluir>.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
+.modal__excluir__inner {
+    background-color: white;
+    width: 31.375rem;
+    max-width: 100%;
+    height: 20.375rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+}
+
+.modal__excluir__cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+.modal__excluir__cabecalho h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #212529;
+}
+
+.button__excluir__sair {
+    font-weight: 600;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: #ADB5BD;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.button__excluir__sair:hover {
+    color: red;
+}
+
+.modal__botao__cancelar {
+    background-color: #ADB5BD;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 50px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    border: 2px solid;
+}
+
+.modal__botao__cancelar:hover{
+    color: #ADB5BD;
+    background-color: #ffffff;
+    border: 2px solid #ADB5BD;
+}
+
+.modal__botao__excluir {
+    background-color: #E64445;
+    border: 2px solid;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 50px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.modal__botao__excluir:hover{
+    background-color: #ffffff;
+    color: #E64445;
+    border: 2px solid #E64445;
+
+}
+
+.modal__excluir__botoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modal__excluir__cabecalho h2{
+    display: flex;
+    flex-direction: row-reverse;
+}

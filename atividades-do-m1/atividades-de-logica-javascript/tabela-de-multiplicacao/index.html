@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiplication Table</title>
+    </head>
+
+    <body>
+        <h1>Tabela de Multiplicação</h1>
+        <script>
+            function tabelaDeMultiplicacao() { 
+                let x = [];
+                for (let i = 0; i <= 10; i++) {
+                    x.push([]);
+                    for(let z= 0; z <= 10; z++){
+                        x[i].push(i * z) 
+                    }
+            }
+            return x 
+
+            
+        }
+        console.table(tabelaDeMultiplicacao())
+           
+        </script>
+    </body>
+</html>

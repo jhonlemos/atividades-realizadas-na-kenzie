@@ -1,0 +1,6 @@
+let contador,let counter,counter >=1,Saída
+[ ],25,true,-
+[25],24,true,-
+"[25,24]",23,true,-
+ultima linha,ultima linha,true,-
+-,-,false,"[25,24,23,22,21,20,19...,1]"

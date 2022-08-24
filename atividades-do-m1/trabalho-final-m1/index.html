@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+        </style>
+    <title>Jv varinhas</title>
+</head>
+<body>
+    <div id="header">
+        <img id="logo" src="jv_varinhas.png" alt="">
+        <nav id="categoriasDoCabecalho">
+            
+            <ul id = "lista">
+                <li><button class="cabecalho" id="Todas">Todas</button></li>
+                <li><button class="cabecalho" id="Azevinho">Azevinho</button></li>
+                <li><button class="cabecalho" id="Salgueiro">Salgueiro</button></li>
+                <li><button class="cabecalho" id="Videira">Videira</button></li>
+                <li><button class="cabecalho" id="Colubrina">Colubrina</button></li>
+            </ul>
+        </nav>
+        <div id = "content">
+            <div id="esquerda"></div>
+
+            <div id="direita">
+                <div id = "pesquisa">
+                    <input type="text" placeholder="Digite aqui sua pesquisa" value="" name="Pesquise" id="valorDeEntrada">
+                    <button type="submit"  id = "botao_de_pesquisa">Pesquisar</button>
+                </div>
+                <div id="texto_do_carrinho">
+                    <p>Carrinho de Compras</p>
+                </div>
+                <div id = vazio></div>
+                <div id="divcarrinho"></div>
+                <div id = infocarrinho><div id = quantidade><p id = quantidade1>Quantidade:</p><p id = quantidadev>0</p></div>
+                <div id=precoc><p id=preco1>Preço:</p><p id =valorTotal></p></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="scripts/varinhas.js"></script>
+    <script src="scripts/script.js"></script>
+    
+</body>
+</html>

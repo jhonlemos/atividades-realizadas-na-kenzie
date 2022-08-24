@@ -1,0 +1,10 @@
+let contador=[ ];let counter = 1;if counter<=20;counter++;contador.push
+[ ];1;true;-;1
+[1];-;true;+1;-
+[1];2;true;-;2
+[1,2];-;true;+1;
+[1,2];3;true;-;3
+[1,2,3];-;true;+1;-
+[1,2,3];4;true;-;4
+[1,2,3,4];-;true;+1;-
+[1,2,3,4...];>20;false;-;-

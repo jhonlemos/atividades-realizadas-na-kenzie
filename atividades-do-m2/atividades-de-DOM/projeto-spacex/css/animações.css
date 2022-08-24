@@ -1,0 +1,42 @@
+/* ANIMAÇÔES */
+
+@keyframes fromTop {
+  from {
+    margin-top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes toTop {
+  from {
+    margin-top: 0;
+    opacity: 1;
+  }
+
+  to {
+    margin-top: -300px;
+    opacity: 0
+    
+  }
+}
+
+.show {
+  animation: fromTop 1s;
+  margin-top: 0;
+  opacity: 1;
+  z-index: 0;
+  float: right;
+}
+
+.hide {
+  animation: toTop 1s;
+  margin-top: -300px;
+  opacity: 0;
+  z-index: 1;
+  float: right;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../../styles/reset.css" />
+    <link rel="stylesheet" href="../entrar/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class = "container--login">
+      <h1 class="container__titulo">Cadastrar</h1>
+      <form class="container__form">
+        <label for="username" hidden>Nome do usuário</label>
+        <input name="username" type="text" id="username" placeholder="Nome do usuário" />
+        <label for="email" hidden>Email</label>
+        <input name="email" type="email" id="email" placeholder="Email" />
+        <label for="avatarUrl" hidden>Foto de perfil</label>
+        <input name="avatarUrl" type="text" id="avatarUrl" placeholder="Foto de perfil" />
+        <label for="password" hidden>Senha</label>
+        <input name="password" type="password" id="password" placeholder="Senha" />
+
+        <button class="container__form__btn" type="submit">Cadastro</button>
+      </form>
+      <span class="container__menssagem"></span>
+      <p class="container__p">
+        Já possui uma conta? <a class="container__link" href="../Login/index.html">login</a>
+      </p>
+    </div>
+    </main>
+    <script type="module" src="./CreateUser.js"></script>
+    <footer><p>&copy; 2021-2022 | João Victor Lemos. Todos os direitos reservados.</p></footer>
+  </body>
+</html>

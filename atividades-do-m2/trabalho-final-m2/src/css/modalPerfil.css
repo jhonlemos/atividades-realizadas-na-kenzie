@@ -1,0 +1,99 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.modal_perfil {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.modal_perfil>.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
+.modal_inner_perfil {
+    background-color: white;
+    width: 31.375rem;
+    max-width: 100%;
+    height: 16rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+}
+
+.modal_perfil_cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+.modal_perfil_cabecalho h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #212529;
+}
+
+.modal_perfil_form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    gap: 1rem;
+}
+
+.modal_perfil_form input {
+    height: 2.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    outline: 0;
+    background-color: #F1F3F5;
+    border-radius: 5px;
+    padding: 0 1rem;
+}
+
+.button_perfil_sair {
+    font-weight: 600;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: #ADB5BD;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.button_perfil_sair:hover {
+    color: red;
+}
+
+.button_salvar_perfil {
+    background-color: #A0ADF9;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 50px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button_salvar_perfil:hover {
+    background-color: #415AF3;
+}
+
+.modal_perfil_cabecalho h2{
+    display: flex;
+    flex-direction: row-reverse;
+}

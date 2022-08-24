@@ -1,0 +1,172 @@
+ol,
+ul {
+    list-style: none;
+
+}
+
+@font-face {
+    font-family: "IBM";
+    src: url("C:\Users\jolit\OneDrive\Documentos\Estudo na Kenzie\CSS\Atividades\Fontes\IBM_Plex_Sans\IBMPlexSans-Regular.ttf") format("truetype");
+}
+
+body {
+
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+div.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+div p.quem_esta_assistindo {
+    color: #FFFFFF;
+    font-family: "IBM";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+}
+
+.box_perfil {
+    width: 164px;
+    overflow: hidden;
+    border: 2px solid transparent;
+}
+
+.perfil_imagem {
+    width: 160px;
+    height: 159px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 2px solid transparent;
+
+}
+
+div.perfil_nome {
+    display: flex;
+    font-family: 'IBM';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #9C9C9C;
+    justify-content: center;
+}
+
+.box_perfil:hover {
+    cursor: pointer;
+}
+
+.perfil_imagem:hover {
+    border: #FFFFFF solid 2px;
+}
+
+.box_perfil:hover img {
+
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.box_perfil:hover h2 {
+
+    filter: brightness(200%);
+}
+
+.addperfil_imagem {
+    display: flex;
+    width: 160px;
+    height: 155px;
+    justify-content: center;
+    align-content: space-around;
+    background: #1E1E20;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    flex-wrap: wrap;
+
+}
+
+.addperfil_imagem img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.addperfil_nome {
+    display: flex;
+    font-family: 'IBM';
+    font-style: normal;
+    line-height: 18px;
+    color: #9C9C9C;
+    justify-content: center;
+}
+
+.box_addperfil:hover {
+    cursor: pointer;
+
+}
+
+.addperfil_imagem:hover {
+
+    border: #FFFFFF solid 2px;
+
+}
+
+.addperfil_imagem:hover img {
+
+    filter: brightness(200%);
+
+}
+
+.box_addperfil:hover h2 {
+
+    filter: brightness(200%);
+}
+
+div.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    width: 206px;
+    height: 50px;
+}
+
+p.button {
+
+    color: #FFFFFF;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #FFFFFF
+}
+
+.button:hover p {
+    color: black;
+}

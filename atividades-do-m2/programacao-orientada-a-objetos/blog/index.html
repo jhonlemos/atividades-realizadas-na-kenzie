@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KenzieBlog</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <figure class="header__figure">
+        <img
+          class="header__img"
+          src="https://cdn.pixabay.com/photo/2015/07/09/19/32/dog-838281_960_720.jpg"
+          alt=""
+        />
+        <legend class="header__username">GatinhoFofo</legend>
+      </figure>
+      <button type="button" class="header__btn">Sair</button>
+    </header>
+
+    <main class="container">
+      <form class="container__form">
+        <textarea
+          class="container__textarea"
+          name="content"
+          id=""
+          placeholder="Comece seu post incrivel!"
+        >
+        </textarea>
+        <button class="container__submit" type="submit">
+          <img src="./src/assets/plus.svg" alt="" />
+        </button>
+      </form>
+      <section class="container__content">
+        <ul class="container__content__posts"></ul>
+      </section>
+    </main>
+    <script type="module" src="./src/script.js"></script>
+    <footer><p>&copy; 2021-2022 | João Victor Lemos. Todos os direitos reservados.</p></footer>
+  </body>
+</html>

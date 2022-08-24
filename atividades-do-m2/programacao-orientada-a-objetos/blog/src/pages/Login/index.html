@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../../styles/reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class = "container--login">
+      <h1 class="container__titulo">Login</h1>
+      <form class="container__form">
+        <label for="email" hidden>Email</label>
+        <input name="email" type="text" id="email" placeholder="Email" />
+        <label for="password" hidden>Senha</label>
+        <input name="password" type="password" id="password" placeholder="Senha" />
+        <button class="container__form__btn" type="submit">Login</button>
+      
+      </form>
+      <span class="container__menssagem"></span>
+      <p class="container__p">
+        Crie sua conta <a class="container__link" href="../entrar/index.html">aqui</a>
+      </p>
+    </div>
+  </main>
+  <script type="module" src="./AuthenticateUser.js"></script>
+  <footer><p>&copy; 2021-2022 | João Victor Lemos. Todos os direitos reservados.</p></footer>
+  </body>
+</html>

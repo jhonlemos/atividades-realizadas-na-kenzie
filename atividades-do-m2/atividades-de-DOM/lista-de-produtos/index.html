@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./src/css/reset.css" />
+		<link rel="stylesheet" href="./src/css/style.css" />
+		<title>Lista de Produtos(JV)</title>
+	</head>
+	<body>
+		<!-- CABEÇALHO -->
+		<header class="shop__title">Mercado</header>
+		<nav class="menu">
+			<div class="menu__section">
+				<button id="todos" class="button button--standard button--selected">
+					Todos
+				</button>
+				<button id="hortifruti" class="button button--standard">
+					Hortifruti
+				</button>
+				<button id="panificadora" class="button button--standard">
+					Panificadora
+				</button>
+				<button id="laticinio" class="button button--standard">
+					Laticínios
+				</button>
+			</div>
+			<form class="menu__search">
+				<input type="text" placeholder="Pesquisar por" class="search__input" />
+				<button class="button search__button">
+					<img
+						class="search__img"
+						src="src/img/magnifying-glass-solid.svg"
+						alt=""
+						id="search"
+					/>
+				</button>
+			</form>
+			<button class="menu__cart-button">
+				<i class="fa-solid fa-cart-shopping menu__cart-icon"></i>
+				<span class="menu__cart-number"></span>
+			</button>
+		</nav>
+		<!-- CONTEÚDO -->
+		<main class="container">
+			<ul class="product-list"></ul>
+			<aside class="cart cart--hide">
+				<h3 class="cart__title">
+					<i class="fa-solid fa-cart-arrow-down"></i>
+					Carrinho
+				</h3>
+				<div class="cart__product-list cart__product-list--center">
+					<img
+						src="src/img/empty-cart.png"
+						alt="empty-cart"
+						class="cart__img-empty-cart"
+					/>
+					<p class="cart__text-empty">
+						Por enquanto não temos produtos no carrinho
+					</p>
+				</div>
+			</aside>
+		</main>
+
+		<script src="src/js/dataProdutos.js"></script>
+		<script src="src/js/script.js"></script>
+	</body>
+</html>

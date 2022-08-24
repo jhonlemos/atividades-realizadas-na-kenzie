@@ -1,0 +1,6 @@
+let pilha_impar,let n,n >= -25,Saída
+[  ],25,true,-
+[25],24,true,-
+"[25,24]",23,true,-
+última linha,última linha,false,-
+-,-,-,"[25, 23, 21, …, -23, -25]"

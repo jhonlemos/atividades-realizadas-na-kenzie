@@ -1,0 +1,7 @@
+let x,let i,i<= 10,let z,z<=10,saída
+[ ],-,-,-,-,-
+[ array ( 0 )],0,true,0,true,-
+[ array ( 1 )],0,true,1,true,-
+pula pra ultima linha,pula pra ultima linha,pula pra ultima linha,pula pra ultima linha,pula pra ultima linha,pula pra ultima linha
+"[[(11)],[(11)],[(11)],[(11)],[(11)],[(11)],[(11)],[(11)],[(11)],[(11)],[(11)]]",10,false,10,false,-
+-,-,-,-,-,"[[(11)],[(11)],[(11)],[(11)],[(11)],[(11)],[(11)],[(11)],[(11)],[(11)],[(11)]]"

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/0333ed942d.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/animations.css">
+  <link rel="stylesheet" href="../css/homepage.css">
+  <link rel="stylesheet" href="../css/modalEditar.css">
+  <link rel="stylesheet" href="../css/modalCriar.css">
+  <link rel="stylesheet" href="../css/modalExcluir.css">
+  <link rel="stylesheet" href="../css/modalPerfil.css">
+  <title>Kenzie Habit</title>
+
+</head>
+
+<body>
+
+  <header class="fadeInDown">
+    <h2>KenzieHabit</h2>
+    <img src="/src/assets/img/user.png" alt="">
+  </header>
+
+  <main>
+
+    <section class="perfil_secao fadeInDown">
+      <div class="perfil_div">
+        <nav class="menu_dropdown">
+          <img src="/src/assets/img/user.png" alt="">
+          <div class="menu_dropdown_conteudo fadeInUp">
+            <a href="#" class="editar_perfil"><i class="fa-solid fa-user-pen"></i> Editar Perfil</a>
+            <hr>
+            <a href="#" class="sair_de_tudo"><i class="fa-solid fa-right-from-bracket"></i> Sair</a>
+          </div>
+        </nav>
+        <h3>Nome de perfil</h3>
+      </div>
+    </section>
+
+    <section class="filtro_secao">
+      <nav class="filtro_nav">
+        <h3>Tarefas</h3>
+        <div class="filtro_categoria">
+          <p class="filtro_todos">Todos</p>
+          <p class="filtro_concluido">Concluídos</p>
+          <button class="botao_criar">Criar</button>
+        </div>
+      </nav>
+    </section>
+
+    <section class="box_secao">
+
+      <div class="fadeIn box_cabecalho">
+        <h3 class="box_status">Status</h3>
+        <h3 class="box_titulo">Título</h3>
+        <h3 class="box_descricao">Descrição</h3>
+        <h3 class="box_categoria">Categoria</h3>
+        <h3 class="box_editar">Editar</h3>
+      </div>
+
+      <div class="conteudo_div">
+        <ul class="div_ul"></ul>
+      </div>
+    </section>
+
+    <aside>
+      <button class="botao_carregar fadeInDown">Carregar Mais</button>
+    </aside>
+
+  </main>
+  <div class="popUp1 fadeIn">
+    <figure class="check_do_modal">
+      <img src="../assets/img/check.png" alt="">
+    </figure>
+    <span>
+      <h2>Sucesso!</h2>Seu hábito foi criado
+    </span>
+  </div>
+  <div class="popUp2 fadeIn">
+    <figure class="check_do_modal">
+      <img src="../assets/img/check.png" alt="">
+    </figure>
+    <span>
+      <h2>Sucesso!</h2> O usuário foi editado
+    </span>
+  </div>
+  <div class="popUp3 fadeIn">
+    <figure class="check_do_modal">
+      <img src="../assets/img/check.png" alt="">
+    </figure>
+    <span>
+      <h2>Sucesso!</h2>Seu hábito foi alterado
+    </span>
+  </div>
+  <script type="module" src="../scripts/homepage.script.js"></script>
+</body>
+
+</html>

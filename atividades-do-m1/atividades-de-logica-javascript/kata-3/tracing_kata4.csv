@@ -1,0 +1,6 @@
+let contador_negativo,let counter,counter<= -1,Saída
+[ ],-25,true,-
+[-25],-24,true,-
+"[-25,-24]",-23,true,-
+Última linha,Última linha,false,-
+-,-,-,"[-25, -24, -23, …, -2, -1]"

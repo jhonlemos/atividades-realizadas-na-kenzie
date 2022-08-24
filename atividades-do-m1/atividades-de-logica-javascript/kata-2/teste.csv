@@ -1,0 +1,10 @@
+,,function multiply,,,,
+num1,num2,let resultado,let i,i < num2,i++,return resultado
+4,6,0,0,true,-,-
+4,6,4,0,true,1,-
+4,6,8,1,true,2,-
+4,6,12,2,true,3,-
+4,6,16,3,true,4,-
+4,6,20,4,true,5,-
+4,6,24,5,true,6,-
+-,-,-,-,false,-,24
