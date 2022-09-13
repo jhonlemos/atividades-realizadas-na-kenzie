@@ -1,0 +1,90 @@
+.CartProduct-infos {
+  width: 48%;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  gap: 11px;
+  justify-content: flex-start;
+}
+
+.CartProduct-infos > h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 20px;
+  color: #333333;
+}
+
+.CartProduct-infos > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 12px;
+  color: #828282;
+}
+
+.CartProduct-remove-changeQtd {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.CartProduct-remove-changeQtd > button {
+  border: none;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #bdbdbd;
+  background: transparent;
+}
+
+.CartProduct-remove-changeQtd > button:hover {
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration-line: underline;
+  color: #333333;
+}
+
+.CartProduct-changeQtd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CartProduct-changeQtd button {
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 15px;
+  color: #bdbdbd;
+  background: transparent;
+}
+
+.CartProduct-changeQtd button:hover {
+  cursor: pointer;
+  color: #333333;
+}
+
+.CartProduct-changeQtd span {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+@media (min-width: 940px) {
+  .CartProduct-infos {
+    padding-left: 0.4rem;
+  }
+
+  .CartProduct-infos > h3 {
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  .CartProduct-infos > span {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

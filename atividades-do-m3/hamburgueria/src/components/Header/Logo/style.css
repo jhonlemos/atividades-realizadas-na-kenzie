@@ -1,0 +1,24 @@
+.Logo {
+  width: 160.94px;
+  min-height: 36.83px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+  font-weight: 700;
+  gap: 5px
+}
+
+p {
+  color: #333333;
+  font-size: 30px;
+  display: inline-flex;
+  align-items: center;
+}
+
+span {
+  font-size: 30px;
+  color: red;
+  display: inline-flex;
+  align-items: center;
+}

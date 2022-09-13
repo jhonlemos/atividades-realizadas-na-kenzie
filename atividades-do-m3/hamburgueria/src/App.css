@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.App-main {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  padding: 0.9rem;
+  flex-direction: column;
+}
+
+@media (min-width: 940px) {
+  .App-main {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}

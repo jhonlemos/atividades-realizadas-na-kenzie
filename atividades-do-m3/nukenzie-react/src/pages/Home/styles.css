@@ -1,0 +1,329 @@
+.main{
+    background-color: #212529;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.home{
+    display: flex;
+    padding: 94px 256px ;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+  
+}
+.homeLeft{
+    width: 40%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+
+
+}
+
+.homeRight{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    background-color: #212529;
+}
+
+.nu{
+    color: #FD377E;
+    margin-right: 7px;
+
+}
+.centralize{
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 38px;
+line-height: 48px;
+max-width: 80%;
+
+}
+
+.deForma{
+    margin: 0;
+    font-size: 16px;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(224, 100, 204, 0.05);
+    width: 593px;
+    height: 593px;
+    border-radius: 50%;
+}
+.div2{
+    background-color: rgba(224, 100, 204, 0.05);
+    width: 517px;
+    height: 517px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div3{
+    background-color:rgba(224, 100, 204, 0.05);
+    width: 424px;
+    height: 424px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div4{
+    background-color:#FFFFFF;
+    width: 256px;
+    height: 354px;
+
+  
+
+}
+.divRetangulos{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.retangulo{
+    width: 206px;
+    height: 36px;
+    background-color:#F3F3F3 ;
+   
+    
+}
+.retanguloDeCima{
+    box-shadow: 5px 5px 5px 5px #797979;
+    position: absolute;
+    right: 35px;   
+    z-index: 2;
+    width: 313px;
+    height: 93px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    background-color:#FFFFFF ;
+  
+}
+
+
+.botoes{
+    padding-top: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content:right;
+    gap: 5px;
+}
+
+.buttonIndex{
+    gap: 5px;
+    justify-content:right;
+    border: none;
+}
+#btnVermelho{
+    background-color:#FD377E ;
+    width: 6px;
+    height: 6px;
+    padding: 0 ;
+    border-radius: 50%;
+
+}
+#btnVerde{
+    background-color: #66C085;
+    width: 6px;
+    height: 6px;
+    padding: 0 ;
+    border-radius: 50%;
+}
+#btnPreto{
+    background-color: #000000;
+    width: 6px;
+    height: 6px;
+    padding: 0 ;
+    border-radius: 50%;
+}
+
+
+.boxRetanguloDeCima{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 58px;
+     background-color: #FD377E;
+    
+}
+.box2RetanguloDeCima{
+    width: 200px;
+    height: 58px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.linha1RetanguloDeCima{
+    width: 206px;
+    height: 15px;
+    background-color: 
+    #FCEFFA;
+}
+.linha2RetanguloDeCima{
+    width: 52px;
+    height: 15px;
+    background-color: 
+    #FCEFFA;
+}
+
+.retanguloDeBaixo{
+    box-shadow: 2px 2px 2px 2px #d3d3d3;
+    position: absolute;
+    top: 190px;
+    left: 35px;   
+    z-index: 1;
+    width: 231px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    padding-left: 10px;
+    background-color:#FFFFFF ;
+}
+
+.boxRetanguloDeBaixo{
+    display: flex;
+    width: 44px;
+    height: 43px;
+    background-color: #66C085;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box2RetanguloDeBaixo{
+    width: 200px;
+    height: 58px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.linha1RetanguloDeBaixo{
+    width: 152px;
+    height: 11px;
+    background-color: 
+    #FCEFFA;
+}
+.linha2RetanguloDeBaixo{
+    width: 39px;
+    height: 11px;
+    background-color: 
+    #FCEFFA;
+}
+.popUp{
+    position: absolute;
+    top: 0px;
+    left: 35px;   
+    width: 50px ;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bola{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(239, 204, 110);
+    width: 30px ;
+    height: 30px;
+    border-radius: 50% 50% 50%;
+    box-shadow: 2px 2px 2px 2px #d3d3d3;
+
+}
+
+@media (max-width: 901px) {
+    .home{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .homeLeft{
+ 
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        width: 70%;
+  
+        
+    }
+    
+    .homeRight{
+        display: none;
+        width: 100vw;
+        height: 100%;
+        margin: 0;
+        background-color: #212529;
+    }
+
+    .div1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(224, 100, 204, 0.05);
+        width: 20px;
+        border-radius: 50%;
+    }
+    .div2{
+        background-color: rgba(224, 100, 204, 0.05);
+        width: 517px;
+        height: 517px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div3{
+        background-color:rgba(224, 100, 204, 0.05);
+        width: 424px;
+        height: 424px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div4{
+        background-color:#FFFFFF;
+        width: 256px;
+        height: 354px;
+    
+      
+    
+    }
+
+}

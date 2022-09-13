@@ -1,0 +1,20 @@
+.ProductsList-ul {
+  height: 345px;
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+@media (min-width: 940px) {
+  .ProductsList-ul {
+    flex-wrap: wrap;
+    height: 80%;
+    width: 80%;
+    max-width: 1000px;
+    padding: 0px 24px;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

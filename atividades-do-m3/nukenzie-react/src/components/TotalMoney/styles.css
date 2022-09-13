@@ -1,0 +1,37 @@
+.boxValorTotal{
+    margin-top: 20px;
+    padding: 10px;
+    width: 322px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: solid 2px #E9ECEF;
+    border-radius: 4px;
+    margin-left: 0;
+
+    
+}
+.divValorTotal{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.h3ValorTotal{
+    font-size: 16px;
+    color: #212529;
+}
+.h4ValorTotal{
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    font-size: 12px;
+    color: #5B6166
+}
+
+#total{
+    color: #FD377E;
+}

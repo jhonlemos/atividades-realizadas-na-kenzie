@@ -1,0 +1,58 @@
+.CartTotal-div {
+  width: 93%;
+  display: flex;
+  flex-direction: column;
+  height: 125px;
+  justify-content: space-between;
+  padding: 18px 0 12px 0;
+  border-top: 2px solid #e0e0e0;
+}
+
+.CartTotal-div button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  width: 100%;
+  height: 56px;
+  background: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #828282;
+}
+
+.CartTotal-div button:hover {
+  cursor: pointer;
+  background: #828282;
+  border: 2px solid #828282;
+  border-radius: 8px;
+  color: #e0e0e0;
+}
+
+.CartTotalValue-div-total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CartTotalValue-div-total h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.CartTotalValue-div-total p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #828282;
+}

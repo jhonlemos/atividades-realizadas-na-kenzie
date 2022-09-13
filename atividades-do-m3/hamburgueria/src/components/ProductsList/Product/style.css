@@ -1,0 +1,79 @@
+.Product-li {
+  width: 300px;
+  height: 346px;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Product-img {
+  display: flex;
+  width: 100%;
+  height: 165px;
+  background-color: #f5f5f5;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  background-color: transparent;
+  width: 140px;
+  height: 140px;
+}
+
+.Product-divInfos {
+  height: 45%;
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 0 1rem;
+}
+
+.Product-divInfos h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+}
+
+.Product-divInfos span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #828282;
+}
+
+.Product-divInfos p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #27ae60;
+}
+
+.Product-divInfos button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  width: 106px;
+  height: 40px;
+  background: #27ae60;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.Product-divInfos button:hover {
+  cursor: pointer;
+  background: #93d7af;
+  border: 2px solid #93d7af;
+}
